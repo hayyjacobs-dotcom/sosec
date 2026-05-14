@@ -20,7 +20,7 @@ def handle_facebook(vpn_enabled):
 
 
 jimiyont1947@gmail.com(vpn_enabled):
-    wordlist = get_wordlist()
+    wordlist = jimiyont1947@gmail.com()
     gmail.bruteforce(email, wordlist, vpn_enabled)
 
 
