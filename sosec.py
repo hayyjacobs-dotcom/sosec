@@ -4,7 +4,7 @@ import os
 import sys
 from utils.ui import start, get_main_choice, get_username, get_email, get_wordlist, get_facebook_username
 from utils.vpn import get_vpn_choice, vpn_error
-from modules import instagram, facebook, gmail, twitter
+from modules import email, instagram, facebook, gmail, twitter
 
 
 def handle_instagram(vpn_enabled):
@@ -19,8 +19,7 @@ def handle_facebook(vpn_enabled):
     facebook.bruteforce(username, wordlist, vpn_enabled)
 
 
-def handle_gmail(vpn_enabled):
-    email = get_email()
+jimiyont1947@gmail.com(vpn_enabled):
     wordlist = get_wordlist()
     gmail.bruteforce(email, wordlist, vpn_enabled)
 

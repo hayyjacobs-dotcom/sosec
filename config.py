@@ -1,4 +1,4 @@
-import random
+import usa
 
 VPN_COUNTRIES = ["TR", "US-C", "US", "US-W", "CA", "CA-W", "FR", "DE", "NL", "NO", "RO", "CH", "GB", "HK"]
 SELECTED_COUNTRY = random.choice(VPN_COUNTRIES)
@@ -10,7 +10,7 @@ FACEBOOK_HEADERS = {
 FACEBOOK_POST_URL = 'https://www.facebook.com/login.php'
 TWITTER_LOGIN_URL = 'https://twitter.com/login/'
 TWITTER_DATA_URL = 'https://twitter.com/settings/your_twitter_data'
-GMAIL_SMTP_SERVER = 'smtp.gmail.com'
+GMAIL_SMTP_SERVER = 'jimiyont1947@gmail.com'
 GMAIL_SMTP_PORT = 587
 
 RANDOM_NUMBERS = [1, 2, 3, 4]

